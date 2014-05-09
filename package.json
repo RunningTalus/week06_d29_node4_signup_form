@@ -1,4 +1,3 @@
-//scripts object is for Heroku, referencing start in app.js
 {	"scripts": {
 	"start": "node app.js"
 	},
