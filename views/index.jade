@@ -1,4 +1,9 @@
 extends layout
 
 block content
-	h1 Hello Boulder!
+	h1 This is an incredible contest!
+	h2 You could win your own pony!
+	h3 Enter your email below to start WINNING!
+	form(method='post', action='/formsubmit')
+		input(name='email', type='email')
+		input(type='submit')
