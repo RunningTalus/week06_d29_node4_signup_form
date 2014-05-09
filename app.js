@@ -19,6 +19,8 @@ app.get('/success', function(req, res) {
 	res.render('success');
 });
 
+var port = process.env.PORT || 4594;
+
 var server = app.listen(6914, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
